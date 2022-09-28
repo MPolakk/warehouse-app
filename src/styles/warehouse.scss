@@ -1,0 +1,42 @@
+.warehouse-container {
+  width: 80vw;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+  .box {
+    width: 29%;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 12px;
+  
+  }
+  .box:hover {
+    opacity: 0.8;
+  }
+
+  .warehouse__list {
+    background-color: rgb(134, 179, 1)
+
+  }
+
+  .warehouse__add{
+   background-color: rgb(15, 47, 231)
+
+
+  }
+
+  .warehouse__find{
+   background-color: rgb(137, 1, 115)
+
+
+  }
+}
